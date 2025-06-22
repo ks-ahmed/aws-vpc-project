@@ -120,18 +120,11 @@ Created a custom VPC with a CIDR block `10.0.0.0/16`
 ![Screenshot 2025-06-21 161951](https://github.com/user-attachments/assets/0df2cf32-9604-4199-9b38-7bde1883940f)
 
 
----
-
-## Key Takeaways
-
-- Understanding and implementing AWS networking 
-- Hands-on experience with route tables, NAT gateways, and security configurations
-- Securing access to private resources using a Bastion host
-
 
 ---
 
-## Conclusion
+## Key Takeaway
+
 This project was a successful hands-on implementation of core AWS networking components. I was able to design and deploy a custom VPC architecture that included public and private subnets, route tables, an Internet Gateway, a NAT Gateway with Elastic IP, and secure EC2 instance deployments.
 
 By configuring a Bastion Host in the public subnet and a Private Server in the private subnet, I validated secure access to private resources via SSH. The successful connectivity test confirmed that all networking and security configurations were correctly applied.
