@@ -1,3 +1,7 @@
+<div align="center">
+<img width="400" alt="DevOps" src="https://media.licdn.com/dms/image/v2/D4E22AQGTqoLT14ORKQ/feedshare-shrink_800/B4EZd5iVaRHYAg-/0/1750090743666?e=1753315200&v=beta&t=ji3p5fsqsu_BGeIfym5OBUvqr8rH0_54Gq7bOpMjUL0" />
+</div>
+
 #  AWS VPC Project – Custom VPC with Bastion Host and Private Server
 
 ## Project Overview
