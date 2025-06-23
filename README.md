@@ -58,13 +58,18 @@ Created a custom VPC with a CIDR block `10.0.0.0/16`
 
 ## 3. Route Tables Configuration
 
-- Associated the **Public Route Table** with public subnets
-- Associated the **Private Route Table** with private subnets
-- Added routes to IGW and NAT Gateway accordingly
+Associated the **Public Route Table** with public subnets
 
+Added routes to IGW and NAT Gateway accordingly
+
+---
 ![Screenshot 2025-06-21 153002](https://github.com/user-attachments/assets/3f3e0760-3594-4022-8ca3-b1fa117efffc)
 
 ---
+
+Associated the **Private Route Table** with private subnets
+
+----
 
  ![Screenshot 2025-06-21 163143](https://github.com/user-attachments/assets/d8762b63-87ed-4203-a780-6061ec314d1f)
 
@@ -114,6 +119,10 @@ Created a custom VPC with a CIDR block `10.0.0.0/16`
 - From Bastion, SSH into the **Private Server**
 
 ![Screenshot 2025-06-21 161657](https://github.com/user-attachments/assets/b1e60724-012d-41b6-9453-3f5cc245f0c9)
+
+---
+
+Checked connectivity with `ping gogole.com` and `nslookup google.com`
 
 ---
 
