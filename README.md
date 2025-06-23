@@ -78,17 +78,20 @@ Associated the **Private Route Table** with private subnets
 
 ## 4. Internet Gateway and NAT Gateway
 
+---
+
 - Created and attached an **Internet Gateway (IGW)** to the VPC
-- Created a **NAT Gateway** in a public subnet using an **Elastic IP**
-- Enabled private subnets to access the internet through the NAT Gateway
 
 ![Screenshot 2025-06-21 163130](https://github.com/user-attachments/assets/6650ba7a-73b2-4151-a499-ebc9fd1eeace)
 
-
  ---
+ 
+Created a **NAT Gateway** in a public subnet using an **Elastic IP**
+Enabled private subnets to access the internet through the NAT Gateway
+
+---
 
 ![Screenshot 2025-06-21 163111](https://github.com/user-attachments/assets/595b97f6-123a-4f11-b57e-cfe30c469f4d)
-
 
 
 ---
@@ -122,7 +125,7 @@ Associated the **Private Route Table** with private subnets
 
 ---
 
-Checked connectivity with `ping gogole.com` and `nslookup google.com`
+Checked connectivity with `ping google.com` and `nslookup google.com`
 
 ---
 
